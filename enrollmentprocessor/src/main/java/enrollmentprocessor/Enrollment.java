@@ -71,7 +71,10 @@ public class Enrollment {
      */
     public String getSortName() {
     	String[] names = name.split(" ");
-        return (names[1] + " " + names[0]).toUpperCase();
+    	if (names.length > 1) {
+            return (names[1] + " " + names[0]).toUpperCase();
+    	}
+    	return this.name;
     }
 
     @Override
