@@ -1,7 +1,7 @@
 package enrollmentprocessor;
 
 /**
- * Coding exercise: Availity receives enrollment files from various benefits
+ * Coding exercise: Company receives enrollment files from various benefits
  * management and enrollment solutions (I.e. HR platforms, payroll platforms).
  * Most of these files are typically in EDI format. However, there are some
  * files in CSV format. For the files in CSV format, write a program that will
